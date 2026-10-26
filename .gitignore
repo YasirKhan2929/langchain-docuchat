@@ -1,0 +1,26 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Model and cache files
+models/
+.cache/
+huggingface_cache/
+
+# Local uploaded documents (keep sample documents tracked)
+data/uploads/
+
+# Editor and operating system
+.vscode/
+.DS_Store
+Thumbs.db
